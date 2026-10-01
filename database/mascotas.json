@@ -1,0 +1,718 @@
+[
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79e9"
+    },
+    "nombre": "Max",
+    "especie": "perro",
+    "raza": "Labrador Retriever",
+    "sexo": "macho",
+    "fechaNacimiento": {
+      "$date": {
+        "$numberLong": "1520812800000"
+      }
+    },
+    "pesoKg": {
+      "$numberDouble": "34.2"
+    },
+    "propietario": {
+      "nombre": "Laura Gómez",
+      "telefono": "+57 300 123 4567",
+      "email": "laura.gomez@correo.com",
+      "direccion": "Cra 10 # 20-30, Bogotá"
+    },
+    "etiquetas": [
+      "alérgico",
+      "crónico"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1749859200000"
+          }
+        },
+        "motivo": "Picazón intensa y lesiones en piel",
+        "veterinario": "Dra. Camila Torres",
+        "diagnosticos": [
+          "dermatitis alérgica",
+          "otitis externa"
+        ],
+        "tratamiento": "Oclacitinib 16 mg c/12h por 14 días; limpieza ótica semanal",
+        "metadatos": {
+          "temperatura": {
+            "$numberDouble": "38.9"
+          },
+          "pruebaAlergia": {
+            "positivo": [
+              "pollo",
+              "ácaros"
+            ]
+          },
+          "zonasAfectadas": [
+            "abdomen",
+            "orejas"
+          ]
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79ea"
+        }
+      },
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1768867200000"
+          }
+        },
+        "motivo": "Control de displasia de cadera",
+        "veterinario": "Dr. Andrés Ruiz",
+        "diagnosticos": [
+          "displasia de cadera",
+          "osteoartritis"
+        ],
+        "tratamiento": "Meloxicam 0.1 mg/kg c/24h; condroprotector; fisioterapia",
+        "metadatos": {
+          "radiografia": {
+            "proyeccion": "ventrodorsal",
+            "gradoDisplasia": "moderado"
+          },
+          "dolor": {
+            "$numberInt": "6"
+          },
+          "cojera": true
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79eb"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "microchip": "985112003456789",
+      "alergias": [
+        "penicilina",
+        "pollo"
+      ],
+      "dieta": {
+        "tipo": "hipoalergénica",
+        "marca": "VetCare",
+        "porcionesDia": {
+          "$numberInt": "2"
+        }
+      },
+      "vacunas": [
+        {
+          "nombre": "rabia",
+          "fecha": "2025-02-10",
+          "proxima": "2026-02-10"
+        },
+        {
+          "nombre": "parvovirus",
+          "fecha": "2025-02-10"
+        }
+      ]
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132560"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132560"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79ec"
+    },
+    "nombre": "Luna",
+    "especie": "gato",
+    "raza": "Siamés",
+    "sexo": "hembra",
+    "fechaNacimiento": {
+      "$date": {
+        "$numberLong": "1596240000000"
+      }
+    },
+    "pesoKg": {
+      "$numberDouble": "4.1"
+    },
+    "propietario": {
+      "nombre": "Carlos Mejía",
+      "telefono": "+57 311 222 3344",
+      "email": "cmejia@correo.com"
+    },
+    "etiquetas": [
+      "esterilizada",
+      "renal"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1762128000000"
+          }
+        },
+        "motivo": "Polidipsia, poliuria y pérdida de peso",
+        "veterinario": "Dra. Camila Torres",
+        "diagnosticos": [
+          "enfermedad renal crónica",
+          "hipertensión"
+        ],
+        "tratamiento": "Dieta renal, benazepril 0.5 mg/kg, fluidoterapia subcutánea",
+        "metadatos": {
+          "laboratorio": {
+            "creatinina": {
+              "$numberDouble": "2.8"
+            },
+            "urea": {
+              "$numberInt": "78"
+            },
+            "fosforo": {
+              "$numberDouble": "6.1"
+            },
+            "densidadUrinaria": {
+              "$numberDouble": "1.014"
+            }
+          },
+          "estadioIRIS": {
+            "$numberInt": "2"
+          },
+          "presionSistolica": {
+            "$numberInt": "175"
+          }
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79ed"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "microchip": "985112009998877",
+      "esterilizada": true,
+      "alimentacion": "renal seca",
+      "comportamiento": {
+        "agresividad": "baja",
+        "estres": "alto en consulta"
+      }
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132561"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132561"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79ee"
+    },
+    "nombre": "Rocky",
+    "especie": "perro",
+    "raza": "Bulldog Francés",
+    "sexo": "macho",
+    "fechaNacimiento": {
+      "$date": {
+        "$numberLong": "1653004800000"
+      }
+    },
+    "pesoKg": {
+      "$numberDouble": "12.8"
+    },
+    "propietario": {
+      "nombre": "Marta Ríos",
+      "telefono": "+57 320 555 8899",
+      "email": "marta.rios@correo.com"
+    },
+    "etiquetas": [
+      "braquicéfalo",
+      "cirugía"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1772928000000"
+          }
+        },
+        "motivo": "Ronquidos y dificultad respiratoria con el ejercicio",
+        "veterinario": "Dr. Andrés Ruiz",
+        "diagnosticos": [
+          "síndrome braquicefálico",
+          "estenosis de narinas"
+        ],
+        "tratamiento": "Rinoplastia y resección de paladar blando",
+        "metadatos": {
+          "anestesia": {
+            "protocolo": "propofol/isoflurano",
+            "duracionMin": {
+              "$numberInt": "55"
+            }
+          },
+          "complicaciones": null,
+          "recuperacionDias": {
+            "$numberInt": "7"
+          }
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79ef"
+        }
+      },
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1774137600000"
+          }
+        },
+        "motivo": "Control posoperatorio",
+        "veterinario": "Dr. Andrés Ruiz",
+        "diagnosticos": [
+          "recuperación posquirúrgica satisfactoria"
+        ],
+        "tratamiento": "Retiro de puntos",
+        "metadatos": {
+          "temperatura": {
+            "$numberDouble": "38.5"
+          },
+          "herida": "cicatrización completa"
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79f0"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "microchip": "985112001112223",
+      "alergias": [],
+      "seguro": {
+        "aseguradora": "PetSegura",
+        "poliza": "PS-44521"
+      }
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132561"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132561"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79f1"
+    },
+    "nombre": "Kiwi",
+    "especie": "ave",
+    "raza": "Cacatúa ninfa",
+    "sexo": "macho",
+    "pesoKg": {
+      "$numberDouble": "0.09"
+    },
+    "propietario": {
+      "nombre": "Sofía Pardo",
+      "telefono": "+57 301 777 1010"
+    },
+    "etiquetas": [
+      "exótico",
+      "plumas"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1770768000000"
+          }
+        },
+        "motivo": "Se arranca las plumas del pecho",
+        "veterinario": "Dra. Valentina Cruz",
+        "diagnosticos": [
+          "picaje de plumas",
+          "deficiencia nutricional"
+        ],
+        "tratamiento": "Cambio de dieta, enriquecimiento ambiental, suplemento vitamínico",
+        "metadatos": {
+          "cultivoFecal": "negativo",
+          "horasLuzDia": {
+            "$numberInt": "8"
+          },
+          "comportamiento": "estrés por aislamiento"
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79f2"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "anillo": "CO-2021-0456",
+      "jaula": {
+        "tamanoCm": [
+          {
+            "$numberInt": "80"
+          },
+          {
+            "$numberInt": "50"
+          },
+          {
+            "$numberInt": "60"
+          }
+        ],
+        "perchas": {
+          "$numberInt": "4"
+        }
+      },
+      "dieta": [
+        "semillas",
+        "frutas",
+        "pellets"
+      ]
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132561"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132561"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79f3"
+    },
+    "nombre": "Thumper",
+    "especie": "conejo",
+    "raza": "Cabeza de león",
+    "sexo": "macho",
+    "fechaNacimiento": {
+      "$date": {
+        "$numberLong": "1673740800000"
+      }
+    },
+    "pesoKg": {
+      "$numberDouble": "1.6"
+    },
+    "propietario": {
+      "nombre": "Daniel Ortiz",
+      "telefono": "+57 315 000 2211",
+      "email": "dortiz@correo.com"
+    },
+    "etiquetas": [
+      "exótico",
+      "dental"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1775088000000"
+          }
+        },
+        "motivo": "Deja de comer y babea",
+        "veterinario": "Dra. Valentina Cruz",
+        "diagnosticos": [
+          "maloclusión dental",
+          "estasis gastrointestinal"
+        ],
+        "tratamiento": "Limado dental bajo sedación, procinéticos, alimentación asistida",
+        "metadatos": {
+          "dientesAfectados": [
+            "incisivos",
+            "premolares"
+          ],
+          "sedacion": {
+            "farmaco": "midazolam",
+            "dosisMgKg": {
+              "$numberDouble": "0.5"
+            }
+          },
+          "pesoAlIngreso": {
+            "$numberDouble": "1.45"
+          }
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79f4"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "dieta": {
+        "heno": "timothy",
+        "verdurasDia": [
+          "cilantro",
+          "zanahoria"
+        ]
+      },
+      "convivencia": "solo",
+      "habitat": "interior"
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79f5"
+    },
+    "nombre": "Bella",
+    "especie": "perro",
+    "raza": "Golden Retriever",
+    "sexo": "hembra",
+    "fechaNacimiento": {
+      "$date": {
+        "$numberLong": "1441756800000"
+      }
+    },
+    "pesoKg": {
+      "$numberInt": "29"
+    },
+    "propietario": {
+      "nombre": "Laura Gómez",
+      "telefono": "+57 300 123 4567",
+      "email": "laura.gomez@correo.com"
+    },
+    "etiquetas": [
+      "geriátrico",
+      "oncología",
+      "crónico"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1778976000000"
+          }
+        },
+        "motivo": "Masa palpable en glándula mamaria",
+        "veterinario": "Dr. Andrés Ruiz",
+        "diagnosticos": [
+          "carcinoma mamario",
+          "sospecha de metástasis pulmonar"
+        ],
+        "tratamiento": "Mastectomía regional; quimioterapia metronómica (ciclofosfamida)",
+        "metadatos": {
+          "histopatologia": {
+            "tipo": "carcinoma tubulopapilar",
+            "grado": {
+              "$numberInt": "2"
+            },
+            "margenes": "limpios"
+          },
+          "radiografiaTorax": "nódulos sospechosos",
+          "dolor": {
+            "$numberInt": "4"
+          }
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79f6"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "microchip": "985112005554443",
+      "esterilizada": true,
+      "cuidadosPaliativos": true
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79f7"
+    },
+    "nombre": "Nube",
+    "especie": "gato",
+    "raza": "Mestizo",
+    "sexo": "hembra",
+    "fechaNacimiento": {
+      "$date": {
+        "$numberLong": "1744243200000"
+      }
+    },
+    "pesoKg": {
+      "$numberDouble": "3.2"
+    },
+    "propietario": {
+      "nombre": "Julián Vargas",
+      "telefono": "+57 304 888 4455",
+      "email": "jvargas@correo.com"
+    },
+    "etiquetas": [
+      "cachorro",
+      "rescatado"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1780272000000"
+          }
+        },
+        "motivo": "Primera consulta, estornudos y secreción ocular",
+        "veterinario": "Dra. Camila Torres",
+        "diagnosticos": [
+          "complejo respiratorio felino",
+          "conjuntivitis"
+        ],
+        "tratamiento": "Doxiciclina 10 mg/kg c/24h por 14 días, lágrimas artificiales",
+        "metadatos": {
+          "temperatura": {
+            "$numberDouble": "39.1"
+          },
+          "pcrHerpesvirus": "positivo",
+          "esquemaVacunal": "iniciado"
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79f8"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "origen": "rescate callejero",
+      "desparasitaciones": {
+        "$numberInt": "2"
+      },
+      "testsRapidos": {
+        "felv": "negativo",
+        "fiv": "negativo"
+      }
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6abdcadccb59895edc9e79f9"
+    },
+    "nombre": "Spike",
+    "especie": "reptil",
+    "raza": "Dragón barbudo",
+    "sexo": "macho",
+    "pesoKg": {
+      "$numberDouble": "0.45"
+    },
+    "propietario": {
+      "nombre": "Andrea Salazar",
+      "telefono": "+57 318 456 7890"
+    },
+    "etiquetas": [
+      "exótico",
+      "metabólico"
+    ],
+    "historialClinico": [
+      {
+        "fecha": {
+          "$date": {
+            "$numberLong": "1784419200000"
+          }
+        },
+        "motivo": "Temblores y extremidades débiles",
+        "veterinario": "Dra. Valentina Cruz",
+        "diagnosticos": [
+          "enfermedad metabólica ósea",
+          "hipocalcemia"
+        ],
+        "tratamiento": "Calcio oral con D3, corrección de iluminación UVB",
+        "metadatos": {
+          "calcioSerico": {
+            "$numberDouble": "6.2"
+          },
+          "radiografia": "osteopenia generalizada",
+          "lamparaUVBAnios": {
+            "$numberInt": "2"
+          }
+        },
+        "_id": {
+          "$oid": "6abdcadccb59895edc9e79fa"
+        }
+      }
+    ],
+    "metadatosVariables": {
+      "terrario": {
+        "temperaturaZonaCalida": {
+          "$numberInt": "38"
+        },
+        "uvb": true,
+        "sustrato": "baldosa"
+      },
+      "alimentacion": [
+        "grillos",
+        "verduras de hoja"
+      ]
+    },
+    "activo": true,
+    "__v": {
+      "$numberInt": "0"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1790823132562"
+      }
+    }
+  }
+]
